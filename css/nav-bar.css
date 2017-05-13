@@ -1,0 +1,33 @@
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.nav_bar{
+    float: left ;
+    margin-right: 3px;
+    border-right:1px solid #bbb;
+}
+
+.nav_bar a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_bar a:hover:not(.active) {
+    background-color: black;
+    text-decoration: none;
+    color: orange;
+}
+
+.test-text-nav{
+    color: black;
+}
+
